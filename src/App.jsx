@@ -29,7 +29,7 @@ function App() {
       <FormLocation setIdLocation={setIdLocation} />
       {isLoading ? (
         <h2 className='loader'>
-          <img src="./public/Header/icono.png"  alt="" className='icon__loader' />
+          <img src="https://github.com/fabryfh/Rick_-_Morty_FHR/blob/main/public/Header/icono.png"  alt="" className='icon__loader' />
         </h2>
       ) : hasError ? (
         <h1 className='error__text'>❌ Hey! you must provide an id from 1 to 126 😥</h1>
