@@ -23,13 +23,13 @@ function App() {
     <div className='father__container'>
 
       <h1 className='header__img'>
-      <img src="./public/Header/RyM1.jpg" alt="" />
+      <img href="https://raw.githubusercontent.com/fabryfh/Rick_-_Morty_FHR/main/public/Header/RyM1.jpg" alt="" />
       </h1>
 
       <FormLocation setIdLocation={setIdLocation} />
       {isLoading ? (
         <h2 className='loader'>
-          <img src="./public/Header/icono.png"   alt="" className='icon__loader' />
+          <img href="https://raw.githubusercontent.com/fabryfh/Rick_-_Morty_FHR/main/public/Header/icono.png"   alt="" className='icon__loader' />
         </h2>
       ) : hasError ? (
         <h1 className='error__text'>❌ Hey! you must provide an id from 1 to 126 😥</h1>
