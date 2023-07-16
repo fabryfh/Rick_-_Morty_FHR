@@ -23,16 +23,19 @@ function App() {
     <div className='father__container'>
 
       <h1 className='header__img'>
-      <img src="/Header/RyM1.jpg" alt="" />
+      <img src="./public/Header/RyM1.jpg" alt="" />
       </h1>
 
       <FormLocation setIdLocation={setIdLocation} />
       {isLoading ? (
         <h2 className='loader'>
-          <img  src="/Header/icono.png"   alt="" className='icon__loader' />
+          <img src="/Header/icono.png"  alt="" className='icon__loader' />
         </h2>
       ) : hasError ? (
-        <h1 className='error__text'>❌ Hey! you must provide an id from 1 to 126 😥</h1>
+        <h1 className='error__text'>❌ Hey! you must provide an id from 1 to 126 😥
+        
+        <img className='error__text__gif' src="/GifError.gif" alt="" />
+        </h1>
       ) : (
         <>
           <LocationInfo location={location} />
