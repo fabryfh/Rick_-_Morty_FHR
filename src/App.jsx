@@ -23,7 +23,7 @@ function App() {
     <div className='father__container'>
 
       <h1 className='header__img'>
-      <img src="./public/Header/RyM1.jpg" alt="" />
+      <img src="/Header/RyM1.jpg" alt="" />
       </h1>
 
       <FormLocation setIdLocation={setIdLocation} />
